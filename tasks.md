@@ -11,17 +11,15 @@
 - [x] Initialize Convex project (requires interactive login)
 - [x] Define schema for users, chats, messages, credits
 - [x] Set up Convex functions for CRUD operations
-- [ ] Configure real-time subscriptions (requires Convex deployment)
-- [ ] Install and configure BetterAuth as Convex plugin (requires Convex deployment)
-
-> Note: Run `npx convex dev` interactively to deploy Convex functions
+- [x] Configure real-time subscriptions (requires Convex deployment)
+- [x] Install and configure BetterAuth as Convex plugin (requires Convex deployment)
 
 ## Milestone 3: Authentication System
-- [ ] Implement OAuth with Google provider
-- [ ] Implement OAuth with GitHub provider
-- [ ] Create authentication middleware for protected routes
-- [ ] Build login/signup UI pages
-- [ ] Implement session management
+- [x] Implement OAuth with Google provider
+- [x] Implement OAuth with GitHub provider
+- [x] Create authentication middleware for protected routes
+- [x] Build login/signup UI pages
+- [x] Implement session management
 
 ## Milestone 4: Core UI Components
 - [ ] Create Button component in components/core/

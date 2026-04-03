@@ -19,7 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/convex/generated": ["./convex/generated/index.ts"],
+      "@/convex/generated/*": ["./convex/generated/*"]
     }
   },
   "include": [
