@@ -2,17 +2,19 @@
 
 ## Milestone 1: Project Setup & Infrastructure
 - [x] Initialize Next.js 16 project with TypeScript
-- [ ] Configure Tailwind CSS v4 with PostCSS
-- [ ] Set up project folder structure (app/, components/core/, lib/, hooks/)
-- [ ] Configure ESLint and TypeScript strict mode
-- [ ] Create .env.example with required environment variables
+- [x] Configure Tailwind CSS v4 with PostCSS
+- [x] Set up project folder structure (app/, components/core/, lib/, hooks/)
+- [x] Configure ESLint and TypeScript strict mode
+- [x] Create .env.example with required environment variables
 
 ## Milestone 2: Convex Backend Setup
-- [ ] Initialize Convex project
-- [ ] Define schema for users, chats, messages, credits
-- [ ] Set up Convex functions for CRUD operations
-- [ ] Configure real-time subscriptions
-- [ ] Install and configure BetterAuth as Convex plugin
+- [x] Initialize Convex project (requires interactive login)
+- [x] Define schema for users, chats, messages, credits
+- [x] Set up Convex functions for CRUD operations
+- [ ] Configure real-time subscriptions (requires Convex deployment)
+- [ ] Install and configure BetterAuth as Convex plugin (requires Convex deployment)
+
+> Note: Run `npx convex dev` interactively to deploy Convex functions
 
 ## Milestone 3: Authentication System
 - [ ] Implement OAuth with Google provider
